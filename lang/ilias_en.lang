@@ -1,0 +1,17 @@
+//
+// Copyright (c) 2017 Institut fuer Lern-Innovation, Friedrich-Alexander-Universitaet Erlangen-Nuernberg, GPLv3, see LICENSE
+//
+// English Language File for the Example Evaluations
+//
+
+<!-- language file start -->
+tst_participants_title_short#:#Participations
+tst_participants_title_long#:#Source Participation Data
+tst_participants_description#:#List of all filtered particpation data
+tst_questions_title_short#:#Questions
+tst_questions_title_long#:#Source Questions Data
+tst_questions_description#:#List of all filtered question data
+qst_debug_title_short#:#Answers
+qst_debug_title_long#:#Source Answer Data
+qst_debug_description#:#List of all filtered answer data
+qst_debug_not_available#:#No answer available
