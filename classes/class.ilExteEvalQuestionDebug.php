@@ -7,29 +7,29 @@
 class ilExteEvalQuestionDebug extends ilExteEvalQuestion
 {
 	/**
-	 * @var bool	evaluation provides a single value for the overview level
+	 * evaluation provides a single value for the overview level
 	 */
-	protected $provides_value = false;
+	protected bool $provides_value = false;
 
 	/**
-	 * @var bool	evaluation provides data for a details screen
+	 * evaluation provides data for a details screen
 	 */
-	protected $provides_details = true;
+	protected bool $provides_details = true;
 
 	/**
-	 * @var array   list of allowed test types, e.g. array(self::TEST_TYPE_FIXED)
+	 * list of allowed test types, e.g. array(self::TEST_TYPE_FIXED)
 	 */
-	protected $allowed_test_types = array();
+	protected array $allowed_test_types = array();
 
 	/**
-	 * @var array	list of question types, e.g. array('assSingleChoice', 'assMultipleChoice', ...)
+	 * list of question types, e.g. array('assSingleChoice', 'assMultipleChoice', ...)
 	 */
-	protected $allowed_question_types = array();
+	protected array $allowed_question_types = array();
 
 	/**
-	 * @var string	specific prefix of language variables (lowercase classname is default)
+	 * specific prefix of language variables (lowercase classname is default)
 	 */
-	protected $lang_prefix = 'qst_debug';
+	protected ?string $lang_prefix = 'qst_debug';
 
 
 	/**
@@ -37,7 +37,7 @@ class ilExteEvalQuestionDebug extends ilExteEvalQuestion
      * @param integer $a_question_id
      * @return ilExteStatValue
      */
-	public function calculateValue($a_question_id)
+    protected function calculateValue(int $a_question_id) : ilExteStatValue
 	{
 		return new ilExteStatValue;
 	}
@@ -49,7 +49,7 @@ class ilExteEvalQuestionDebug extends ilExteEvalQuestion
      * @param integer $a_question_id
      * @return ilExteStatDetails
      */
-	public function calculateDetails($a_question_id)
+    protected function calculateDetails(int $a_question_id) : ilExteStatDetails
 	{
         // answer details
         $details = new ilExteStatDetails();
