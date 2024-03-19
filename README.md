@@ -19,7 +19,9 @@ When you download the add-on as ZIP file from GitHub, please rename the extracte
 (remove the branch suffix, e.g. -master).
 
 Copy the ExampleEvaluations directory to your ILIAS installation at the followin path
-(create subdirectories, if neccessary): Customizing/global/plugins/Modules/Test/Evaluations
+(create subdirectories, if neccessary): 
+
+`Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/ExtendedTestStatistics/addons`
 
 The example evaluations are automatically recognized by the ExtendedTestStatistics plugin and shown in its plugin
 administration. Choose here if they should be available to platform administrators or all users.
