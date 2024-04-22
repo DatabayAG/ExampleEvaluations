@@ -3,7 +3,7 @@ Example Evaluations for the ILIAS ExtendedTestStatistics Plugin
 
 Copyright (c) 2017 Institut fuer Lern-Innovation, Friedrich-Alexander-Universitaet Erlangen-Nuernberg, GPLv3, see LICENSE
 
-**Further maintenance is provided by [Databay AG](https://www.databay.de).**
+**Further maintenance can be offered by [Databay AG](https://www.databay.de).**
 
 Requirements
 ------------
