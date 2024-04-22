@@ -3,14 +3,13 @@ Example Evaluations for the ILIAS ExtendedTestStatistics Plugin
 
 Copyright (c) 2017 Institut fuer Lern-Innovation, Friedrich-Alexander-Universitaet Erlangen-Nuernberg, GPLv3, see LICENSE
 
-- Authors:   Fred Neumann <fred.neumann@ili.fau.de>, Jesus Copado <jesus.copado@ili.fau.de>
-
+**Further maintenance is provided by [Databay AG](https://www.databay.de).**
 
 Requirements
 ------------
 
 This is an add-on to the ExtendedTestStatistics for ILIAS. You need to install that plugin to use the example evaluations:
-https://github.com/ilifau/ExtendedTestStatistics
+https://github.com/DatabayAG/ExtendedTestStatistics
 
 Installation
 ------------
